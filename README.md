@@ -2,7 +2,7 @@
 
 Hosted on Heroku :
     
-      https://evening-garden-80719.herokuapp.com/add_planets.html
+      https://evening-garden-80719.herokuapp.com/
 
 A simple django app that lets us view/favourite Star Wars data. The app:
 
