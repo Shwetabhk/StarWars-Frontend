@@ -1,0 +1,32 @@
+body{
+    zoom:85%;
+}
+
+
+.nav-link{
+    color: white;
+}
+
+a:hover{
+    color: lightgray;
+}
+
+.navactive{
+    color:goldenrod;
+}
+
+.car-image{
+    width:700px;
+    height:450px;
+}
+
+.car-text{
+    color:white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.carousel-inner{
+    background-color: black;
+    
+}

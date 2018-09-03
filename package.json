@@ -1,0 +1,26 @@
+{
+  "name": "starwars-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for contacting the StarWars Django REST application",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shwetabhk/StarWars-Frontend.git"
+  },
+  "keywords": [
+    "starwars"
+  ],
+  "author": "shwetabhk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shwetabhk/StarWars-Frontend/issues"
+  },
+  "homepage": "https://github.com/Shwetabhk/StarWars-Frontend#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}

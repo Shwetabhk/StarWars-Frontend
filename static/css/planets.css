@@ -1,0 +1,59 @@
+body{
+    zoom:85%;
+}
+
+
+.nav-link{
+    color: white;
+}
+
+a:hover{
+    color: lightgray;
+}
+
+.navactive{
+    color:goldenrod;
+}
+
+.car-image{
+    width:700px;
+    height:450px;
+}
+
+.car-text{
+    color:white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.carousel-inner{
+    background-color: black;
+    
+}
+
+#planets{
+    color:white;
+    zoom:80%;
+}
+
+.card{
+    width:253px;
+    height:380px;
+}
+.card-img-top{
+    width: 250px;
+    height:250px;
+}
+
+.card-body{
+    color:black;
+}
+
+.paging{
+    padding:20px;
+}
+
+.add-form{
+    background-color: darkslategray;
+    color:white;
+}

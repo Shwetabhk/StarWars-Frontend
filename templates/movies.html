@@ -1,0 +1,51 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="{%static 'js/underscore/underscore.template.js'%}"></script>
+  <script type="text/javascript" src="{%static 'js/movies.js'%}"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link rel="shortcut icon" href="{%static 'favicon/favicon.ico' %}">
+  <link rel="stylesheet" href='{%static "css/movies.css"%}'>
+  <title>Movies</title>
+</head>
+
+{%block head%}
+
+<body background="{%static 'images/home/background.jpg'%}">
+  <nav class="navbar navbar-expand-sm  ">
+    <ul class="navbar-nav ">
+      <li class="nav-item">
+        <a class="nav-link" href="/">
+          <span class='fa fa-home fa-lg'></span>
+          <br> Home
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link navactive" href="/movies/">
+          <span class='fa fa-film fa-lg'></span><br> Movies
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/planets/">
+          <span class='fa fa-globe fa-lg'></span><br> Planets
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+      <div id="movies" class="row">
+      </div>
+  </div>
+</body>
+{%endblock%}
+
+</html>
